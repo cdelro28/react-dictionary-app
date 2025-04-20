@@ -11,7 +11,7 @@ function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="text-center mt-5">
+        <footer className="text-center m-5">
           This project was coded by{" "}
           <a
             href="https://www.linkedin.com/in/christinedelrosario/"

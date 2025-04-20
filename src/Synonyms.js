@@ -4,11 +4,12 @@ export default function Synonmys(props) {
   if (props.synonyms) {
     return (
       <div>
+        Similar:{" "}
         {props.synonyms.map(function (synonym, index) {
           return (
-            <ul key={index}>
-              <li>{synonym}</li>
-            </ul>
+            <span key={index} className="Synonyms">
+              <span>{synonym}</span>
+            </span>
           );
         })}
       </div>
