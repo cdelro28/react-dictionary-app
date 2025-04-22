@@ -10,11 +10,12 @@ footer {
   color: transparent;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 430px) {
   footer {
     margin: 10px 5px;
   }
   container {
+    max-width: 375px;
     margin: 0 auto;
   }
 }

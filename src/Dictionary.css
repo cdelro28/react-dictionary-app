@@ -61,7 +61,7 @@ p {
   border-radius: 20px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 430px) {
   h1 {
     letter-spacing: 10px;
     margin: 20px 0;
@@ -79,6 +79,7 @@ p {
   .Dictionary {
     margin: 0 auto;
     padding: 0;
+    line-height: 1.5;
   }
   .Hint {
     font-size: 10px;
