@@ -60,3 +60,28 @@ p {
   border: 0.5px solid #add8e6;
   border-radius: 20px;
 }
+
+@media (max-width: 375px) {
+  h1 {
+    letter-spacing: 10px;
+    margin: 20px 0;
+  }
+  section {
+    padding: 15px;
+    margin: 20px 10px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 10px rgba(46, 58, 89, 0.7);
+  }
+  input {
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  .Dictionary {
+    margin: 0 auto;
+    padding: 0;
+  }
+  .Hint {
+    font-size: 10px;
+    margin-top: 0px;
+  }
+}

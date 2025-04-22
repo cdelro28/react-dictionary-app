@@ -11,14 +11,15 @@ function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="text-center m-5">
+        <footer className="text-center">
           This project was coded by{" "}
           <a
             href="https://www.linkedin.com/in/christinedelrosario/"
             target="_blank"
             rel="noreferrer"
           >
-            Christine Del Rosario
+            Christine<span className="word-pair">|</span>Del
+            <span className="word-pair">|</span>Rosario
           </a>
           , is open-sourced on{" "}
           <a
