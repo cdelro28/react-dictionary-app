@@ -6,11 +6,15 @@ export default function Synonmys(props) {
       <div>
         Similar:{" "}
         {props.synonyms.map(function (synonym, index) {
-          return (
-            <span key={index} className="Synonyms">
-              {synonym}
-            </span>
-          );
+          if (index < 5) {
+            return (
+              <span key={index} className="Synonyms">
+                {synonym}
+              </span>
+            );
+          } else {
+            return null;
+          }
         })}
       </div>
     );
