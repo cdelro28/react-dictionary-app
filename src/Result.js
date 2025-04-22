@@ -12,7 +12,7 @@ export default function Result(props) {
             <small>{props.result.phonetic}</small>
           </section>
         </div>
-        <p>
+        <div>
           {props.result.meanings.map(function (meanings, index) {
             return (
               <section key={index}>
@@ -23,7 +23,7 @@ export default function Result(props) {
               </section>
             );
           })}
-        </p>
+        </div>
       </div>
     );
   } else {
